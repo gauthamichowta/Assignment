@@ -2,7 +2,6 @@
 include 'config.php';
 class SalaryTable
 {
-
     public function __construct()
     {
         $this->con = OpenCon();
@@ -38,7 +37,6 @@ class SalaryTable
 
     public function EmployeeRank($rank)
     {
-       
     }
 }
 
