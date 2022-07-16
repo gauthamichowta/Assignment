@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="utf-8">
 </head>
 
 <body>
-    <input type="text" placeholder="Type something..." id="textInput">
+    <input type="text" placeholder="Enter Text" id="textInput">
     <button type="button" onclick="getInputValue();">Click</button>
     <ul id="list"></ul>
     <script>

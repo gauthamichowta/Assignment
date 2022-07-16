@@ -1,12 +1,13 @@
 <?php
+namespace task2;
 
 class TextInput
 {
-    protected $str = '';
+    public $str = '';
 
     public function add($text)
     {
-        $this->str = $text;
+        $this->str = $this->str.$text;
     }
 
     public function getValue()

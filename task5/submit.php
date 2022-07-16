@@ -1,4 +1,5 @@
 <?php
+
 $errMsg = "";
 if (empty($_POST["text"])) {
     $errMsg .= "<li>Required Text</<li>";
@@ -22,7 +23,7 @@ if (empty($_POST["name"])) {
     $errMsg .= "<li>Required String</<li>";
 } else {
     $name = test_input($_POST["name"]);
-    if (!preg_match("/^[a-zA-Z-' ]*/", $name)) {
+    if (!preg_match("/^[a-zA-Z-']*/", $name)) {
         $errMsg .= "<li>character not allowed</<li>";
     }
 }
